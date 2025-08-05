@@ -1,0 +1,232 @@
+body{
+    background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.04),rgba(0,0,0,0.08),rgba(0,0,0,0.05),rgba(0,0,0,0.04),rgba(0,0,0,0.01),rgba(0,0,0,0.1),rgba(0,0,0,0.09),rgba(0,0,0,0.1),rgba(0,0,0,0.03),transparent,rgba(0,0,0,0.07),rgba(0,0,0,0.03),rgba(0,0,0,0.06) 4px),linear-gradient(90deg, rgb(193, 255, 253),rgb(59, 104, 247));;
+    margin: 0;
+    padding: 0;
+}
+
+.offers{
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0.9;
+
+}
+.off1{
+    background-image: url(phone2.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right:  20%;
+    color: aliceblue;
+}
+.off2{
+    background-image: url(phone3.jpg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.navbar{
+    background-image linear-gradient(224deg, rgba(63, 63, 63, 0.1) 0%, rgba(63, 63, 63, 0.1) 50%,rgba(155, 155, 155, 0.1) 50%, rgba(155, 155, 155, 0.1) 100%),linear-gradient(89deg, rgba(75, 75, 75, 0.02) 0%, rgba(75, 75, 75, 0.02) 50%,rgba(99, 99, 99, 0.02) 50%, rgba(99, 99, 99, 0.02) 100%),linear-gradient(151deg, rgba(14, 14, 14, 0.02) 0%, rgba(14, 14, 14, 0.02) 50%,rgba(74, 74, 74, 0.02) 50%, rgba(74, 74, 74, 0.02) 100%),linear-gradient(7deg, rgba(31, 31, 31, 0.04) 0%, rgba(31, 31, 31, 0.04) 50%,rgba(210, 210, 210, 0.04) 50%, rgba(210, 210, 210, 0.04) 100%),linear-gradient(291deg, rgba(153, 153, 153, 0.07) 0%, rgba(153, 153, 153, 0.07) 50%,rgba(32, 32, 32, 0.07) 50%, rgba(32, 32, 32, 0.07) 100%),linear-gradient(90deg, rgb(4, 164, 188),rgb(9, 51, 170));
+    background-color: rgb(249, 192, 249);
+    display: flex;
+}
+
+.nav{
+    background-color: rgb(183, 165, 183);
+}
+
+.container{
+    background-image: url(./lenovo-lenovo-ideapad.gif);
+    background-size: cover;
+     width: 1000px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 20px;
+    padding: 20px;
+    scale: 0.9;
+    display: flex;
+    background-attachment: fixed;
+    
+}
+
+.container2{
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container-fluid{
+    
+    
+    
+background:rgb(46, 132, 208, 0.1);
+backdrop-filter: blur(5px);
+margin-bottom: 10px;
+border: 3px solid black;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 10px;
+    
+}
+
+.items{
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+
+.category{
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+
+.product-list{
+    background-image: url(bis.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10%;
+    
+}
+
+:hover{
+    scale: 1;
+}
+
+.offer2{
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+
+}
+
+.off21{
+    background-image: url(phone3.jpg);
+    background-position: end;
+    align-items: end;
+    scale: 0.8;
+
+}
+
+.onsale{
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+.h1,
+.p1{
+    color: aliceblue;
+}
+
+.ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.li{
+    display: inline;
+    margin: o 10px;
+}
+
+.a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.product-card-com{
+    width: 250px;
+    margin-bottom: 5px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    scale: 0.8;
+    rotate: 0deg ;
+    transition: all 0.5s;
+    
+}
+
+.product-card-com:hover{
+    scale: 1;
+    rotate: 360deg ;
+
+}
+
+.product-list-com{
+    background-image: url(bis.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10%;
+    
+}
+
+:hover{
+    scale: 1;
+}
+
+
+
+.imgcom{
+    background-color: transparent;
+    width: 100%;
+    height: 250px;
+    border-radius: 360px;
+    
+    
+}
+
+
+
+.h2com{
+    margin-top: 10px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.pcom{
+    margin: 10px 0;
+    font-size: 16px;
+    color: azure;
+}
+
+@media (max-width:768px) {
+
+    .nav.ul.li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .product-card{
+        width: calc(50%-20px);
+    }
+    
+}
+.headercom{
+    text-align: center;
+}
+
+.buy{
+    background-color: #d9e807;
+}
+
+.atc{
+    background-color: navajowhite;
+    background-color: navajowhite;
+}
+
+    
